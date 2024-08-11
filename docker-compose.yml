@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  tester:
+    container_name: tester
+    build: ./server
+    environment:
+      - base_config=lite
+    ports:
+      - '8000:8000'

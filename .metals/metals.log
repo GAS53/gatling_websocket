@@ -214,3 +214,4 @@ WARNING: Unmatched cancel notification for request id 4
 2024.08.11 20:36:28 WARN  no build target for: /home/main/Documents/ws/demo/src/test/scala/simulations/ws_simulation/WSSimulation.scala
 2024.08.11 20:36:28 INFO  no build target found for /home/main/Documents/ws/demo/src/test/scala/simulations/ws_simulation/WSSimulation.scala. Using presentation compiler with project's scala-library version: 3.3.3
 2024.08.11 20:36:28 INFO  no build target found for /home/main/Documents/ws/demo/src/test/scala/simulations/ws_simulation/WSSimulation.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.11 21:12:03 INFO  no build target found for /home/main/Documents/ws/demo/src/test/scala/simulations/ws_simulation/WSSimulation.scala. Using presentation compiler with project's scala-library version: 3.3.3
