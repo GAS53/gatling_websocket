@@ -1,0 +1,5 @@
+RUN	simulations.ws_simulation.WSSimulation	wssimulation	1723371321359	 	3.6.1
+ERROR	openSocket: Failed to build request: url wss://127.0.0.1:8000http://127.0.0.1:8000/ws can't be parsed into an Uri: j.l.NumberFormatException: For input string: "8000http:" 	1723371321685
+ERROR	closeConnection: Failed to build request: Couldn't fetch open webSocket 	1723371321689
+USER	testWebSocket	END	1723371321690
+USER	testWebSocket	START	1723371321683

@@ -1,0 +1,6 @@
+RUN	simulations.ws_simulation.WSSimulation	wssimulation	1723379832844	 	3.6.1
+USER	wrongWayCheck	START	1723379833290
+REQUEST		connect	1723379833303	1723379833312	OK	 
+REQUEST		bad_command	1723379833314	1723379833314	OK	 
+REQUEST		check_commands	1723379833314	1723379833319	KO	jsonPath($.msg).find.is(twrong command fdghfgest), but actually found wrong command fdghfg
+USER	wrongWayCheck	END	1723379833335

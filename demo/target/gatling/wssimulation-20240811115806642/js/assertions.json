@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.ws_simulation.WSSimulation",
+  "simulationId": "wssimulation",
+  "start": 1723377486642,
+  "description": "",
+  "scenarios": ["createCheckDelUser"],
+  "assertions": [
+
+  ]
+}

@@ -1,0 +1,11 @@
+RUN	simulations.ws_simulation.WSSimulation	wssimulation	1723390054799	 	3.6.1
+USER	createCheckDelUser	START	1723390055221
+REQUEST		connect	1723390055232	1723390055242	OK	 
+REQUEST		create_user	1723390055244	1723390055244	OK	 
+REQUEST		check_commands	1723390055244	1723390055253	OK	 
+REQUEST		get_user_by_name	1723390055266	1723390055266	OK	 
+REQUEST		check_commands	1723390055266	1723390055267	OK	 
+REQUEST		get_user_by_name	1723390055267	1723390055267	OK	 
+REQUEST		check_commands	1723390055267	1723390055271	KO	WebSocket crashed while waiting for check: j.i.IOException: Premature close
+ERROR	closeConnection: Client issued close order but WebSocket was already crashed: j.i.IOException: Premature close 	1723390055273
+USER	createCheckDelUser	END	1723390055274

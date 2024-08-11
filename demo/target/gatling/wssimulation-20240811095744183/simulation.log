@@ -1,0 +1,5 @@
+RUN	simulations.ws_simulation.WSSimulation	wssimulation	1723370264183	 	3.6.1
+ERROR	openSocket: Failed to build request: No baseUrl defined but provided url is relative : /ws 	1723370264531
+ERROR	closeConnection: Failed to build request: Couldn't fetch open webSocket 	1723370264534
+USER	testWebSocket	START	1723370264530
+USER	testWebSocket	END	1723370264535

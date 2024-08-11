@@ -1,0 +1,7 @@
+RUN	simulations.ws_simulation.WSSimulation	wssimulation	1723375718023	 	3.6.1
+USER	testWebSocket	START	1723375718325
+REQUEST		test	1723375718333	1723375718342	OK	 
+REQUEST		test	1723375718345	1723375718345	OK	 
+REQUEST		check1	1723375718345	1723375718350	KO	WebSocket crashed while waiting for check: j.i.IOException: Premature close
+ERROR	closeConnection: Client issued close order but WebSocket was already crashed: j.i.IOException: Premature close 	1723375718353
+USER	testWebSocket	END	1723375718353

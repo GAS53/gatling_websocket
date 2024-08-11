@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.ws_simulation.WSSimulation",
+  "simulationId": "wssimulation",
+  "start": 1723379863034,
+  "description": "",
+  "scenarios": ["wrongWayCheck"],
+  "assertions": [
+
+  ]
+}

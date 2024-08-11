@@ -1,0 +1,11 @@
+RUN	simulations.ws_simulation.WSSimulation	wssimulation	1723394257276	 	3.6.1
+USER	test	START	1723394257590
+REQUEST		connect	1723394257607	1723394257617	OK	 
+REQUEST		set_user1	1723394257619	1723394257619	OK	 
+REQUEST		set_user2	1723394257626	1723394257626	OK	 
+REQUEST		check_commands	1723394257626	1723394257627	KO	jsonPath($.msg).find.is(wrong add user - user alredy exists), but actually found new user is add ddeed
+REQUEST		del_user	1723394257640	1723394257640	OK	 
+REQUEST		check_commands	1723394257640	1723394257641	KO	jsonPath($.msg).find.is(del user ddeed is ok!), but actually found wrong add user - user alredy exists
+REQUEST		double_del_user	1723394257641	1723394257641	OK	 
+REQUEST		check_commands	1723394257641	1723394257642	OK	 
+USER	test	END	1723394257643

@@ -1,0 +1,5 @@
+RUN	simulations.ws_simulation.WSSimulation	wssimulation	1723373961908	 	3.6.1
+ERROR	test: Failed to build request: Couldn't fetch open webSocket 	1723373961932
+ERROR	closeConnection: Failed to build request: Couldn't fetch open webSocket 	1723373961935
+USER	testWebSocket	END	1723373961936
+USER	testWebSocket	START	1723373961930

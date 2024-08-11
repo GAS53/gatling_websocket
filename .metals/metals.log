@@ -1,0 +1,216 @@
+2024.08.09 22:07:52 INFO  Started: Metals version 1.3.5 in folders '/home/main/Documents/ws' for client Visual Studio Code 1.92.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@478e9c98]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@4b3feecf]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@478e9c98]
+2024.08.09 22:07:52 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.09 22:07:52 INFO  no build target found for /home/main/Documents/ws/ws/src/test/scala/MySuite.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.09 22:07:58 INFO  running '/usr/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.08.09 22:07:59 INFO  [info] welcome to sbt 1.10.1 (Ubuntu Java 21.0.4)
+2024.08.09 22:07:59 INFO  [info] loading settings for project ws-build-build from metals.sbt ...
+2024.08.09 22:07:59 INFO  [info] loading project definition from /home/main/Documents/ws/ws/project/project
+2024.08.09 22:08:01 INFO  [info] loading settings for project ws-build from metals.sbt ...
+2024.08.09 22:08:01 INFO  [info] loading project definition from /home/main/Documents/ws/ws/project
+2024.08.09 22:08:06 INFO  [success] Generated .bloop/ws-build.json
+2024.08.09 22:08:06 INFO  [success] Total time: 5 s, completed Aug 9, 2024, 10:08:06 PM
+2024.08.09 22:08:06 INFO  [info] loading settings for project root from build.sbt ...
+2024.08.09 22:08:06 INFO  [info] set current project to ws (in build file:/home/main/Documents/ws/ws/)
+2024.08.09 22:08:13 INFO  [success] Generated .bloop/root.json
+2024.08.09 22:08:13 INFO  [success] Generated .bloop/root-test.json
+2024.08.09 22:08:13 INFO  [success] Total time: 7 s, completed Aug 9, 2024, 10:08:13 PM
+2024.08.09 22:08:13 INFO  time: ran 'sbt bloopInstall' in 15s
+2024.08.09 22:08:13 INFO  Attempting to connect to the build server...
+2024.08.09 22:08:13 INFO  Setting up current java home /usr/lib/jvm/java-21-openjdk-amd64 in /home/main/.bloop/bloop.json
+2024.08.09 22:08:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/main/Documents/ws/.metals/bsp.trace.json or /home/main/.cache/metals/bsp.trace.json
+2024.08.09 22:08:32 INFO  time: Connected to build server in 19s
+2024.08.09 22:08:32 INFO  Connected to Build server: Bloop v1.6.0
+2024.08.09 22:08:33 INFO  running doctor check
+2024.08.09 22:08:33 INFO  java targets: root-test, root
+2024.08.09 22:08:40 WARN  Could not find java sources in /usr/local/src.zip, /usr/local/lib/src.zip, /usr/local/openjdk-17/src.zip, /usr/local/openjdk-17/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2024.08.09 22:08:40 WARN  Could not find java sources in /usr/local/src.zip, /usr/local/lib/src.zip, /usr/local/openjdk-17/src.zip, /usr/local/openjdk-17/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2024.08.09 22:08:40 INFO  time: indexed workspace in 7.26s
+2024.08.09 22:08:40 INFO  compiling root (1 scala source)
+2024.08.09 22:08:41 INFO  compiling root-test (1 scala source)
+2024.08.09 22:08:41 INFO  time: compiled root in 1.45s
+2024.08.09 22:08:41 INFO  time: compiled root-test in 0.31s
+2024.08.09 22:19:09 INFO  Shut down connection with build server.
+2024.08.10 06:52:55 INFO  Started: Metals version 1.3.5 in folders '/home/main/Documents/ws' for client Visual Studio Code 1.92.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@72c1a6af]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@a751e23]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@72c1a6af]
+2024.08.10 06:52:55 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.10 06:52:55 INFO  Attempting to connect to the build server...
+2024.08.10 06:52:55 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/RegisterUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:52:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/main/Documents/ws/.metals/bsp.trace.json or /home/main/.cache/metals/bsp.trace.json
+2024.08.10 06:52:56 INFO  time: Connected to build server in 1.2s
+2024.08.10 06:52:56 INFO  Connected to Build server: Bloop v1.6.0
+2024.08.10 06:52:56 INFO  running doctor check
+2024.08.10 06:52:56 INFO  java targets: root, root-test
+2024.08.10 06:52:56 WARN  Could not find java sources in /usr/local/src.zip, /usr/local/lib/src.zip, /usr/local/openjdk-17/src.zip, /usr/local/openjdk-17/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2024.08.10 06:52:56 WARN  Could not find java sources in /usr/local/src.zip, /usr/local/lib/src.zip, /usr/local/openjdk-17/src.zip, /usr/local/openjdk-17/lib/src.zip, /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2024.08.10 06:52:56 INFO  time: indexed workspace in 0.61s
+2024.08.10 06:52:57 WARN  no build target for: /home/main/Documents/ws/simulations/src/test/scala/RegisterUser.scala
+2024.08.10 06:52:57 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/RegisterUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:52:57 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/RegisterUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:53:42 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/RegisterUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:53:50 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/RegisterUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:53:50 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/MySuite.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:53:50 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/MySuite.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:53:57 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/MySuite.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:17 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:17 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:18 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:18 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:18 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:18 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:18 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:19 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:20 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:20 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:22 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:22 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:22 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:22 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:23 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:23 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:23 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:24 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:24 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:24 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:24 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:25 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:25 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:26 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:26 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:26 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:26 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:26 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:26 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:27 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:26 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:27 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:27 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:30 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:30 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:30 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:31 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:31 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:32 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:32 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:32 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:32 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:39 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:39 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:39 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:40 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:40 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:40 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:43 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:46 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:59 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:54:59 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:55:01 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:55:01 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Aug 10, 2024 6:55:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 140
+2024.08.10 06:55:01 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:55:05 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:55:05 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:55:05 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:55:07 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:55:07 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:55:07 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:55:13 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:56:34 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:56:38 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:56:38 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:56:42 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:57:39 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:57:39 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:57:39 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:57:40 WARN  no build target for: /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala
+2024.08.10 06:57:40 INFO  no build target found for /home/main/Documents/ws/simulations/src/test/scala/TestUser.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.10 06:57:41 INFO  Shutting down server
+2024.08.10 06:57:41 INFO  shutting down Metals
+2024.08.10 06:57:41 INFO  Shut down connection with build server.
+2024.08.10 06:57:41 INFO  Exiting server
+2024.08.11 08:52:52 INFO  Started: Metals version 1.3.5 in folders '/home/main/Documents/ws' for client Visual Studio Code 1.92.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@98c063b]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@55606b1c]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@98c063b]
+2024.08.11 08:52:52 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.11 08:52:52 INFO  Attempting to connect to the build server...
+2024.08.11 08:52:52 INFO  no build target found for /home/main/Documents/ws/gatling-sbt-plugin-demo-main/src/test/scala/computerdatabase/ComputerDatabaseSimulation.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.11 08:52:53 INFO  no build target found for /home/main/Documents/ws/gatling-sbt-plugin-demo-main/src/test/scala/computerdatabase/ComputerDatabaseSimulation.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.11 08:52:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/main/Documents/ws/.metals/bsp.trace.json or /home/main/.cache/metals/bsp.trace.json
+2024.08.11 08:52:53 INFO  time: Connected to build server in 1.29s
+2024.08.11 08:52:53 INFO  Connected to Build server: Bloop v1.6.0
+2024.08.11 08:52:53 INFO  running doctor check
+2024.08.11 08:52:53 INFO  java targets: gatling-sbt-plugin-demo-main-it, gatling-sbt-plugin-demo-main, gatling-sbt-plugin-demo-main-test
+2024.08.11 08:52:54 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.11 08:52:56 INFO  time: indexed workspace in 3.14s
+2024.08.11 08:52:57 INFO  compiling gatling-sbt-plugin-demo-main-test (1 scala source)
+2024.08.11 08:52:57 INFO  time: compiled gatling-sbt-plugin-demo-main-test in 0.91s
+2024.08.11 08:53:02 INFO  Shutting down server
+2024.08.11 08:53:02 INFO  shutting down Metals
+2024.08.11 08:53:02 INFO  Shut down connection with build server.
+2024.08.11 08:53:02 INFO  Exiting server
+2024.08.11 13:04:13 INFO  Started: Metals version 1.3.5+34-4cb20ab7-SNAPSHOT in folders '/home/main/Documents/ws' for client Visual Studio Code 1.92.1.
+2024.08.11 13:04:13 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.11 13:04:14 INFO  Attempting to connect to the build server...
+2024.08.11 13:04:14 INFO  Found a Bloop server running
+2024.08.11 13:04:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/main/Documents/ws/.metals/bsp.trace.json or /home/main/.cache/metals/bsp.trace.json
+2024.08.11 13:04:14 INFO  time: Connected to build server in 0.16s
+2024.08.11 13:04:14 INFO  Connected to Build server: Bloop v2.0.0-RC1
+2024.08.11 13:04:14 INFO  running doctor check
+2024.08.11 13:04:14 INFO  java targets: 
+2024.08.11 13:04:14 INFO  no build target found for /home/main/Documents/ws/BasicSimulation.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.11 13:04:14 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.11 13:04:15 INFO  time: indexed workspace in 1.11s
+2024.08.11 13:04:15 WARN  no build target for: /home/main/Documents/ws/BasicSimulation.scala
+2024.08.11 13:04:15 INFO  no build target found for /home/main/Documents/ws/BasicSimulation.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.11 13:04:15 INFO  no build target found for /home/main/Documents/ws/BasicSimulation.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.11 13:04:19 INFO  no build target found for /home/main/Documents/ws/BasicSimulation.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.11 13:04:27 INFO  no build target found for /home/main/Documents/ws/BasicSimulation.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.11 13:04:27 INFO  no build target found for /home/main/Documents/ws/gatling-charts-highcharts-bundle-3.11.5/src/test/java/computerdatabase/ComputerDatabaseSimulation.java. Using presentation compiler with project's scala-library version: 3.3.3
+Aug 11, 2024 1:04:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/main/Documents/ws/.metals/.reports/metals-full/2024-08-11/r_compiler-error_13-04-27-264.md
+2024.08.11 13:04:32 INFO  no build target found for /home/main/Documents/ws/gatling-charts-highcharts-bundle-3.11.5/src/test/java/computerdatabase/ComputerDatabaseSimulation.java. Using presentation compiler with project's scala-library version: 3.3.3
+Aug 11, 2024 1:04:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/main/Documents/ws/.metals/.reports/metals-full/2024-08-11/r_compiler-error_13-04-32-278.md
+2024.08.11 13:04:32 INFO  no build target found for /home/main/Documents/ws/gatling-charts-highcharts-bundle-3.11.5/src/test/java/computerdatabase/ComputerDatabaseSimulation.java. Using presentation compiler with project's scala-library version: 3.3.3
+Aug 11, 2024 1:04:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/main/Documents/ws/.metals/.reports/metals-full/2024-08-11/r_compiler-error_13-04-33-136.md
+2024.08.11 13:04:36 INFO  no build target found for /home/main/Documents/ws/gatling-charts-highcharts-bundle-3.11.5/src/test/java/computerdatabase/ComputerDatabaseSimulation.java. Using presentation compiler with project's scala-library version: 3.3.3
+Aug 11, 2024 1:04:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/main/Documents/ws/.metals/.reports/metals-full/2024-08-11/r_compiler-error_13-04-36-833.md
+2024.08.11 14:20:04 INFO  no build target found for /home/main/Documents/ws/gatling-charts-highcharts-bundle-3.11.5/src/test/java/computerdatabase/ComputerDatabaseSimulation.java. Using presentation compiler with project's scala-library version: 3.3.3
+Aug 11, 2024 2:20:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/main/Documents/ws/.metals/.reports/metals-full/2024-08-11/r_compiler-error_14-20-04-609.md
+2024.08.11 14:20:07 INFO  no build target found for /home/main/Documents/ws/gatling-charts-highcharts-bundle-3.11.5/src/test/java/computerdatabase/ComputerDatabaseSimulation.java. Using presentation compiler with project's scala-library version: 3.3.3
+Aug 11, 2024 2:20:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/main/Documents/ws/.metals/.reports/metals-full/2024-08-11/r_compiler-error_14-20-07-094.md
+2024.08.11 15:52:34 INFO  Shut down connection with build server.
+2024.08.11 20:36:27 INFO  Started: Metals version 1.3.5+34-4cb20ab7-SNAPSHOT in folders '/home/main/Documents/ws' for client Visual Studio Code 1.92.1.
+2024.08.11 20:36:27 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.11 20:36:27 INFO  Attempting to connect to the build server...
+2024.08.11 20:36:27 INFO  Found a Bloop server running
+2024.08.11 20:36:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/main/Documents/ws/.metals/bsp.trace.json or /home/main/.cache/metals/bsp.trace.json
+2024.08.11 20:36:27 INFO  no build target found for /home/main/Documents/ws/demo/src/test/scala/simulations/ws_simulation/WSSimulation.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.11 20:36:27 INFO  time: Connected to build server in 0.16s
+2024.08.11 20:36:27 INFO  Connected to Build server: Bloop v2.0.0-RC1
+2024.08.11 20:36:27 INFO  running doctor check
+2024.08.11 20:36:27 INFO  java targets: 
+2024.08.11 20:36:27 INFO  no build target found for /home/main/Documents/ws/demo/src/test/scala/simulations/ws_simulation/WSSimulation.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Aug 11, 2024 8:36:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+2024.08.11 20:36:27 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.11 20:36:27 INFO  time: indexed workspace in 0.81s
+2024.08.11 20:36:28 WARN  no build target for: /home/main/Documents/ws/demo/src/test/scala/simulations/ws_simulation/WSSimulation.scala
+2024.08.11 20:36:28 INFO  no build target found for /home/main/Documents/ws/demo/src/test/scala/simulations/ws_simulation/WSSimulation.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.11 20:36:28 INFO  no build target found for /home/main/Documents/ws/demo/src/test/scala/simulations/ws_simulation/WSSimulation.scala. Using presentation compiler with project's scala-library version: 3.3.3

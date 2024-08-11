@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.ws_simulation.WSSimulation",
+  "simulationId": "wssimulation",
+  "start": 1723375811359,
+  "description": "",
+  "scenarios": ["testWebSocket"],
+  "assertions": [
+
+  ]
+}

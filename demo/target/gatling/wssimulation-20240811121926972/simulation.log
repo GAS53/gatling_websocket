@@ -1,0 +1,9 @@
+RUN	simulations.ws_simulation.WSSimulation	wssimulation	1723378766972	 	3.6.1
+USER	createCheckDelUser	START	1723378767265
+REQUEST		connect	1723378767277	1723378767286	OK	 
+REQUEST		create_user	1723378767288	1723378767288	OK	 
+REQUEST		check_commands	1723378767288	1723378767291	OK	 
+REQUEST		get_user_by_name	1723378767304	1723378767304	OK	 
+REQUEST		check_commands	1723378767304	1723378767305	KO	jsonPath($.msg).find.is(first_name testname2 age 2), but actually found first_name testname age 2
+REQUEST		closeConnection	1723378767307	1723378767308	OK	 
+USER	createCheckDelUser	END	1723378767309

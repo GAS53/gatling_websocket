@@ -1,0 +1,6 @@
+RUN	simulations.ws_simulation.WSSimulation	wssimulation	1723376796986	 	3.6.1
+USER	createCheckDelUser	START	1723376797282
+REQUEST		connect	1723376797294	1723376797303	OK	 
+REQUEST		create_user	1723376797305	1723376797305	OK	 
+REQUEST		closeConnection	1723376797315	1723376797316	KO	Premature close
+USER	createCheckDelUser	END	1723376797317
